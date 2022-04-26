@@ -1,0 +1,13 @@
+app:
+  mysql:
+    datasource:
+      jdbc-url: jdbc:mysql://localhost:3306/myschema
+      username: root
+      password: secret
+      poll-size: 30
+  postgres:
+    datasource:
+      jdbc-url: jdbc:postgresql://localhost:5434/demodb
+      username: demouser
+      password: password
+      poll-size: 30
